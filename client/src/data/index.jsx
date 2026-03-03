@@ -84,3 +84,9 @@ export const stats = [
   { id: 2, value: "5K+", label: "Happy Customers" },
   { id: 3, value: "58+", label: "Awards Winning" },
 ];
+
+export const aboutPoints = [
+  "Verified and trusted property listings",
+  "Dedicated agents for every client",
+  "Transparent pricing with no hidden fees",
+];
