@@ -1,4 +1,7 @@
 import { FaComments, FaShieldAlt, FaStar, FaUsers } from "react-icons/fa";
+import property1 from "../assets/images/property8.jpg";
+import property2 from "../assets/images/property3.jpg";
+import property3 from "../assets/images/property7.jpg";
 
 export const featureCards = [
   {
@@ -28,6 +31,43 @@ export const featureCards = [
     title: "Families",
     description:
       "We understand that buying a home is a family decision. We make sure every member feels considered and valued.",
+  },
+];
+
+export const properties = [
+  {
+    id: 1,
+    name: "The Meridian Villa",
+    description: "Modern home with open plan living and premium finishes.",
+    image: property1,
+    bedrooms: 4,
+    bathrooms: 3,
+    location: "Lekki, Lagos",
+    size: "320 sqm",
+    price: "95,000,000",
+  },
+  {
+    id: 2,
+    name: "Oakwood Residence",
+    description:
+      "Elegant family home in a quiet neighbourhood with a spacious garden.",
+    image: property2,
+    bedrooms: 3,
+    bathrooms: 2,
+    location: "Maitama, Abuja",
+    size: "250 sqm",
+    price: "75,000,000",
+  },
+  {
+    id: 3,
+    name: "Skyline Apartments",
+    description: "Contemporary apartment with breathtaking city views.",
+    image: property3,
+    bedrooms: 2,
+    bathrooms: 2,
+    location: "Victoria Island, Lagos",
+    size: "120 sqm",
+    price: "45,000,000",
   },
 ];
 
