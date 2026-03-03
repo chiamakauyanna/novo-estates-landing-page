@@ -2,6 +2,7 @@ import { FaComments, FaShieldAlt, FaStar, FaUsers } from "react-icons/fa";
 import property1 from "../assets/images/property8.jpg";
 import property2 from "../assets/images/property3.jpg";
 import property3 from "../assets/images/property7.jpg";
+import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 export const featureCards = [
   {
@@ -116,4 +117,27 @@ export const testimonials = [
       "From the first call to getting my keys, the experience was seamless. I would recommend Novo Estates to anyone looking for a home in Nigeria.",
     rating: 5,
   },
+];
+
+export const footerLinks = {
+  quickLinks: [
+    { id: 1, name: "Home", href: "#home" },
+    { id: 2, name: "Properties", href: "#properties" },
+    { id: 3, name: "About Us", href: "#about" },
+    { id: 4, name: "Contact", href: "#contact" },
+  ],
+  services: [
+    { id: 1, name: "Property Sales", href: "#" },
+    { id: 2, name: "Property Rentals", href: "#" },
+    { id: 3, name: "Property Management", href: "#" },
+    { id: 4, name: "Investment Advisory", href: "#" },
+    { id: 5, name: "Property Valuation", href: "#" },
+  ],
+};
+
+export const socialLinks = [
+  { id: 1, name: "facebook", icon: <FaFacebook />, href: "#" },
+  { id: 2, name: "instagram", icon: <FaInstagram />, href: "#" },
+  { id: 3, name: "twitter", icon: <FaTwitter />, href: "#" },
+  { id: 4, name: "linkedin", icon: <FaLinkedin />, href: "#" },
 ];
