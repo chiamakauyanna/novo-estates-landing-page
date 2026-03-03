@@ -90,3 +90,30 @@ export const aboutPoints = [
   "Dedicated agents for every client",
   "Transparent pricing with no hidden fees",
 ];
+
+export const testimonials = [
+  {
+    id: 1,
+    name: "Chioma Okafor",
+    role: "Property Buyer",
+    review:
+      "Novo Estates made buying my first home completely stress free. Their team was patient, knowledgeable and always available.",
+    rating: 5,
+  },
+  {
+    id: 2,
+    name: "Emeka Adeyemi",
+    role: "Property Investor",
+    review:
+      "I have worked with several agencies but Novo Estates stands out. Professional, transparent and genuinely invested in finding the right property.",
+    rating: 5,
+  },
+  {
+    id: 3,
+    name: "Fatima Bello",
+    role: "Home Owner",
+    review:
+      "From the first call to getting my keys, the experience was seamless. I would recommend Novo Estates to anyone looking for a home in Nigeria.",
+    rating: 5,
+  },
+];
