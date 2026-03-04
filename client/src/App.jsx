@@ -9,7 +9,7 @@ import PropertiesSection from "./components/sections/PropertiesSection";
 
 const App = () => {
   return (
-    <div>
+    <div className="overflow-x-hidden max-w-screen">
       <Header />
       <HeroSection />
       <FeaturesSection />

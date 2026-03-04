@@ -1,7 +1,7 @@
 import { FaComments, FaShieldAlt, FaStar, FaUsers } from "react-icons/fa";
-import property1 from "../assets/images/property8.jpg";
+import property1 from "../assets/images/property5.jpg";
 import property2 from "../assets/images/property3.jpg";
-import property3 from "../assets/images/property7.jpg";
+import property3 from "../assets/images/property4.jpg";
 import { FaFacebook, FaInstagram, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 export const featureCards = [

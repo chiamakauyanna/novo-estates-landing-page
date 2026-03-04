@@ -20,6 +20,7 @@ const PropertyCard = ({
           src={image}
           alt={name}
           className="w-full h-full object-cover group-hover:scale-105 transition-all duration-500 rounded"
+          loading="lazy"
         />
       </div>
 

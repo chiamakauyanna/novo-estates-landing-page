@@ -8,32 +8,32 @@ const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <header className="fixed w-full bg-secondary z-10">
+    <header className="fixed w-full bg-secondary z-10 ">
       {/* Main Header */}
-      <div className="flex justify-between items-center py-4 px-6 lg:px-20">
+      <div className="flex justify-between items-center py-6 lg:py-4 px-6 lg:px-20 w-screen shadow lg:shadow-none gap-4">
         <div className="flex gap-15 items-center">
           {/* Logo */}
-          <div className="font-bold text-2xl">
+          <div className="font-bold text-2xl whitespace-nowrap">
             <h2>Novo Estates</h2>
           </div>
 
           {/* Desktop NavBar */}
-          <div className="hidden lg:block">
+          <div className="hidden lg:block whitespace-nowrap">
             <NavBar />
           </div>
         </div>
 
         {/* Desktop CTA */}
-        <div className="hidden lg:flex gap-2">
+        <div className="hidden md:flex justify-end mr-8 w-full gap-2">
           <a href="#sign-in">
             <Button
               text="Sign in"
-              className="text-accent bg-secondary hover:text-primary"
+              className="text-accent bg-secondary hover:text-primary whitespace-nowrap"
             />
           </a>
 
           <a href="#sign-up">
-            <Button text="Sign up" className="text-primary bg-accent" />
+            <Button text="Sign up" className="text-primary bg-accent whitespace-nowrap" />
           </a>
         </div>
 
@@ -62,7 +62,7 @@ const Header = () => {
               </li>
             ))}
           </ul>
-          <div className="lg:hidden flex gap-2">
+          <div className="md:hidden flex gap-2">
             <a href="#sign-in">
               <Button
                 text="Sign in"

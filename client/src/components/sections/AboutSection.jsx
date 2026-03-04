@@ -1,6 +1,6 @@
 import aboutImg1 from "../../assets/images/property1.jpg";
-import aboutImg2 from "../../assets/images/property11.jpg";
-import aboutImg3 from "../../assets/images/property10.jpg";
+import aboutImg2 from "../../assets/images/property7.jpg";
+import aboutImg3 from "../../assets/images/property6.jpg";
 import AnimateOnScroll from "../common/AnimateOnScroll";
 import { aboutPoints } from "../../data";
 import { FaCheck } from "react-icons/fa";
@@ -44,16 +44,19 @@ const AboutSection = () => {
               src={aboutImg1}
               alt="property"
               className="w-full h-48 object-cover rounded-xl"
+              loading="lazy"
             />
             <img
               src={aboutImg2}
               alt="property"
               className="w-full h-48 object-cover rounded-xl mt-8"
+              loading="lazy"
             />
             <img
               src={aboutImg3}
               alt="property"
               className="w-full h-48 object-cover rounded-xl col-span-2"
+              loading="lazy"
             />
           </div>
         </AnimateOnScroll>

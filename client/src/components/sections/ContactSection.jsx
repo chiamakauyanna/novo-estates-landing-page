@@ -50,40 +50,41 @@ const ContactSection = () => {
         </AnimateOnScroll>
 
         {/* Right Form */}
-        <AnimateOnScroll direction="right" className="w-full lg:w-1/2">
-          <div className="bg-secondary rounded p-8 shadow-2xl">
-            <div className="flex flex-col gap-4">
-              <div className="flex flex-col md:flex-row gap-4">
-                <InputField
-                  label="First Name"
-                  placeholder="Enter your first name"
-                />
-                <InputField
-                  label="Last Name"
-                  placeholder="Enter your last name"
-                />
-              </div>
+        <AnimateOnScroll
+          direction="right"
+          className="w-full lg:w-1/2 bg-secondary rounded p-6 md:p-8 shadow-2xl"
+        >
+          <div className="flex flex-col gap-4">
+            <div className="flex flex-col md:flex-row gap-4">
               <InputField
-                label="Email Address"
-                type="email"
-                placeholder="Enter your email"
+                label="First Name"
+                placeholder="Enter your first name"
               />
               <InputField
-                label="Phone Number"
-                type="tel"
-                placeholder="Enter your phone number"
+                label="Last Name"
+                placeholder="Enter your last name"
               />
-              <InputField
-                label="I am interested in"
-                placeholder="e.g. Buying, Renting, Investment"
-              />
-              <InputField
-                label="Message"
-                type="textarea"
-                placeholder="Tell us more about what you are looking for"
-              />
-              <Button text="Send Message" className="text-white w-fit mt-2" />
             </div>
+            <InputField
+              label="Email Address"
+              type="email"
+              placeholder="Enter your email"
+            />
+            <InputField
+              label="Phone Number"
+              type="tel"
+              placeholder="Enter your phone number"
+            />
+            <InputField
+              label="I am interested in"
+              placeholder="e.g. Buying, Renting, Investment"
+            />
+            <InputField
+              label="Message"
+              type="textarea"
+              placeholder="Tell us more about what you are looking for"
+            />
+            <Button text="Send Message" className="text-primary w-fit mt-2" />
           </div>
         </AnimateOnScroll>
       </div>
