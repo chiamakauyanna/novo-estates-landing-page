@@ -35,15 +35,15 @@ const PropertyCard = ({
         <div className="mt-4 grid grid-cols-2 items-center gap-4 text-textLight text-sm">
           <div className="flex items-center gap-4">
             <FaBed className="text-textLight size-4" />
-            <span>{bedrooms} Rooms</span>
+            <span>{bedrooms} Beds</span>
           </div>
           <div className="flex items-center gap-4">
             <FaBath className="text-textLight size-4" />
-            <span>{bathrooms} Bathrooms</span>
+            <span>{bathrooms} Baths</span>
           </div>
           <div className="flex items-center gap-4">
             <FaRulerCombined className="text-textLight size-4" />
-            <span>{size} Size</span>
+            <span>{size}</span>
           </div>
           <div className="flex items-center gap-4">
             <FaMapMarkerAlt className="text-textLight size-4" />

@@ -44,19 +44,19 @@ const AboutSection = () => {
               src={aboutImg1}
               alt="property"
               className="w-full h-48 object-cover rounded-xl"
-              loading="lazy"
+              
             />
             <img
               src={aboutImg2}
               alt="property"
               className="w-full h-48 object-cover rounded-xl mt-8"
-              loading="lazy"
+              
             />
             <img
               src={aboutImg3}
               alt="property"
               className="w-full h-48 object-cover rounded-xl col-span-2"
-              loading="lazy"
+              
             />
           </div>
         </AnimateOnScroll>
